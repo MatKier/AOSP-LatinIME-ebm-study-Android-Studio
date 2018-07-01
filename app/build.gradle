@@ -18,6 +18,7 @@ android {
             java.srcDirs = ['../LatinIME/java/src', '../LatinIME/common/src', '../LatinIME/java-overridable/src', '../inputmethodcommon/java']
             res.srcDirs = ['../LatinIME/java/res', '../LatinIME/java-overridable/res']
             jniLibs.srcDirs = ['../app/src/main/jniLibs']
+            assets.srcDirs=['src/main/assets']
         }
     }
 
