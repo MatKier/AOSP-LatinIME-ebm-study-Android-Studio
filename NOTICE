@@ -1,12 +1,12 @@
 AOSP-LatinIME-ebm-study-Android-Studio
 Copyright 2018 Mathias Kiermeier
 
-This product includes software developed at
-The Android Open Source Project (https://source.android.com/).
+This product includes software developed at The Android Open Source Project (https://source.android.com/).
 inputmethodcommon (https://android.googlesource.com/platform/frameworks/opt/inputmethodcommon/).
+DroidSansMono (https://android.googlesource.com/platform/frameworks/base.git/+/master/data/fonts/)
 
 This software contains code derived from the The Android Open Source Project (https://source.android.com/).
-LatinIME (https://android.googlesource.com/platform/packages/inputmethods/LatinIME/). 
+LatinIME (https://android.googlesource.com/platform/packages/inputmethods/LatinIME/).
 
 The Gradle build configuration of this Project is derived from Iwo Banaś' LatinIME-Android-Studio Project 
 (https://github.com/iwo/LatinIME-Android-Studio).
