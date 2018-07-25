@@ -1,28 +1,19 @@
-# Gradle build for LatinIME (Android Keyboard)
-Develop LatinIME in Android Studio without a need to download and build whole AOSP.
+# Gradle build for AOSP-LatinIME-for-explicit-behavior-modification-study (Android Keyboard for Keystrokebiometrics study)
+This Project is based on the LatinIME Android Keyboard (ttps://android.googlesource.com/platform/packages/inputmethods/LatinIME) and Iwo Banaś' (https://github.com/iwo/LatinIME-Android-Studio) Gradle build configuration.
+The LatinIME was modified in two ways: 
+1. It contains a logger class for logging all Keyevents (up&down including all interesting properties) to csv files 
+2. It contains a second launcher activity which is used for a behavior biometrics user study
 
-Currently building LatinIME requires downloading and building whole Android sources.
-This requires tens of gigabytes of disk space and takes couple hours to complete.
-The aim of this project is to allow development of LatingIME using Android Studio, Android SDK and NDK.
+The aim of this project and the corresponding user study is to check if (and how well) people can actively control their typing behavior regarding the following properties: key offset, hold time, flight time and touch area.
 
-## Current status
-This is still a work in progress. Currently building the Java part of the app works fine
-but you still need to build native libraries separately or extract them from existing APK.
-Building host tools (used to generate dictionaries) still requires some more work.
 
-## How to build LatinIME APK
+## How to build AOSP-LatinIME-ebm-study-Android-Studio
+1. Clone build configuration & submodules recursively:
 
-1. Checkout this build configuration:
-
-        git clone https://github.com/iwo/LatinIME-Android-Studio.git .
-1. Checkout LatinIME sources to `LatinIME` subdirectory:
-
-        git clone https://github.com/CyanogenMod/android_packages_inputmethods_LatinIME.git LatinIME
-1. Checkout `frameworks/opt/inputmethodcommon` into `inputmethodcommon`:
-
-        git clone https://github.com/CyanogenMod/android_frameworks_opt_inputmethodcommon.git inputmethodcommon
+        git clone --recurse-submodules -j8 https://github.com/MatKier/AOSP-LatinIME-ebm-study-Android-Studio.git
 1. Import project into Android Studio
-1. Copy prebuild libjni_latinime.so to `app/src/main/jniLibs/armeabi/libjni_latinime.so`
-1. Remove `LatinIME/java/res/values/strings-emoji-descriptions.xml` (or fix encoding of the comments)
-
-Enjoy your new Android Keyboard!
+1. Download necessary Android SDK and Build Tools
+1. Sync Gradle Files
+        1. File -> Sync Project with Gradle Files
+        1. Right Click on build.gradle -> Synchronize 'build.gradle'
+1. Rebuild Project
