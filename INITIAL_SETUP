@@ -1,0 +1,39 @@
+=== LatinIME ===
+cd workingDir
+
+git clone https://android.googlesource.com/platform/packages/inputmethods/LatinIME AOSP-LatinIME-for-explicit-behavior-modification-study
+
+cd AOSP-LatinIME-for-explicit-behavior-modification-study
+
+git remote set-url origin https://github.com/MatKier/AOSP-LatinIME-for-explicit-behavior-modification-study.git
+
+add gitignore
+
+git commit -m "added gitignore"
+
+git push -u origin master
+
+
+
+=== Android Studio Project ===
+cd AOSP-LatinIME-ebm-study-Android-Studio
+
+git clone https://github.com/iwo/LatinIME-Android-Studio.git .
+
+git remote set-url origin https://github.com/MatKier/AOSP-LatinIME-ebm-study-Android-Studio.git
+
+update gitignore
+
+update build.gradle
+
+update app/build.gradle
+
+add jniLibs to app\src\main\jniLibs
+
+git submodule add https://android.googlesource.com/platform/frameworks/opt/inputmethodcommon
+
+git submodule add https://github.com/MatKier/AOSP-LatinIME-for-explicit-behavior-modification-study.git LatinIME
+
+git commit -m "added submodules"
+
+git push -u origin master
