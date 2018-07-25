@@ -1,9 +1,9 @@
 === LatinIME ===
-cd workingDir
+cd AOSP-LatinIME-ebm-study-Android-Studio
 
-git clone https://android.googlesource.com/platform/packages/inputmethods/LatinIME AOSP-LatinIME-for-explicit-behavior-modification-study
+git clone https://android.googlesource.com/platform/packages/inputmethods/LatinIME LatinIME
 
-cd AOSP-LatinIME-for-explicit-behavior-modification-study
+cd LatinIME
 
 git remote set-url origin https://github.com/MatKier/AOSP-LatinIME-for-explicit-behavior-modification-study.git
 
@@ -28,12 +28,14 @@ update build.gradle
 
 update app/build.gradle
 
-add jniLibs to app\src\main\jniLibs
+remove -Werror flag in LatinIME/native/jni/Android.mk
+Run ndk-build in LatinIME/native/jni
+Put jniLibs in /app/src/main/jniLibs
 
 git submodule add https://android.googlesource.com/platform/frameworks/opt/inputmethodcommon
 
 git submodule add https://github.com/MatKier/AOSP-LatinIME-for-explicit-behavior-modification-study.git LatinIME
 
-git commit -m "added submodules"
+git commit -m "added submodules and jniLibs"
 
 git push -u origin master
