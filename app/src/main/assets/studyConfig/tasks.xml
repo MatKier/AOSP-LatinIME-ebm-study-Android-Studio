@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<taskList>
+	<task taskId="1" numberOfReps="10">
+		<letter char="p" offset="center" area="small" htime="short" ftime="short"/>
+		<letter char="a" offset="center" area="small" htime="short" ftime="short"/>
+		<letter char="s" offset="center" area="small" htime="short" ftime="short"/>
+		<letter char="s" offset="center" area="small" htime="short" ftime="short"/>
+		<letter char="w" offset="center" area="small" htime="short" ftime="short"/>
+		<letter char="o" offset="center" area="small" htime="short" ftime="short"/>
+		<letter char="r" offset="center" area="small" htime="short" ftime="short"/>
+		<letter char="d" offset="center" area="small" htime="short" ftime="short"/>
+	</task>
+	<task taskId="2" numberOfReps="10">
+		<letter char="c" offset="center" area="small" htime="short" ftime="short"/>
+		<letter char="o" offset="center" area="small" htime="short" ftime="short"/>
+		<letter char="n" offset="center" area="small" htime="short" ftime="short"/>
+		<letter char="n" offset="center" area="small" htime="short" ftime="short"/>
+		<letter char="e" offset="center" area="small" htime="short" ftime="short"/>
+		<letter char="c" offset="center" area="small" htime="short" ftime="short"/>
+		<letter char="t" offset="center" area="small" htime="short" ftime="short"/>
+	</task>
+	<task taskId="3" numberOfReps="10">
+		<letter char="a" offset="center" area="small" htime="short" ftime="short"/>
+		<letter char="c" offset="center" area="small" htime="short" ftime="short"/>
+		<letter char="c" offset="center" area="small" htime="short" ftime="short"/>
+		<letter char="e" offset="center" area="small" htime="short" ftime="short"/>
+		<letter char="p" offset="center" area="small" htime="short" ftime="short"/>
+		<letter char="t" offset="center" area="small" htime="short" ftime="short"/>
+	</task>
+</taskList>

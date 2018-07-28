@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<taskList>
+	<task taskId="1" numberOfReps="10">
+		<letter char="p">
+			<offset>center</offset>
+			<area>small</area>
+			<holdtime>short</holdtime>
+			<flighttime>short</flighttime>
+		</letter>
+		<letter char="a">
+			<offset>center</offset>
+			<area>small</area>
+			<holdtime>short</holdtime>
+			<flighttime>short</flighttime>
+		</letter>
+		<letter char="s">
+			<offset>center</offset>
+			<area>small</area>
+			<holdtime>short</holdtime>
+			<flighttime>short</flighttime>
+		</letter>
+		<letter char="s">
+			<offset>center</offset>
+			<area>small</area>
+			<holdtime>short</holdtime>
+			<flighttime>short</flighttime>
+		</letter>
+		<letter char="w">
+			<offset>center</offset>
+			<area>small</area>
+			<holdtime>short</holdtime>
+			<flighttime>short</flighttime>
+		</letter>
+		<letter char="o">
+			<offset>center</offset>
+			<area>small</area>
+			<holdtime>short</holdtime>
+			<flighttime>short</flighttime>
+		</letter>
+		<letter char="r">
+			<offset>center</offset>
+			<area>small</area>
+			<holdtime>short</holdtime>
+			<flighttime>short</flighttime>
+		</letter>
+		<letter char="d">
+			<offset>center</offset>
+			<area>small</area>
+			<holdtime>short</holdtime>
+			<flighttime>short</flighttime>
+		</letter>
+	</task>
+	
+	<task taskId="2" numberOfReps="10">
+		<letter char="c">
+			<offset>center</offset>
+			<area>small</area>
+			<holdtime>short</holdtime>
+			<flighttime>short</flighttime>
+		</letter>
+		<letter char="o">
+			<offset>center</offset>
+			<area>small</area>
+			<holdtime>short</holdtime>
+			<flighttime>short</flighttime>
+		</letter>
+		<letter char="n">
+			<offset>center</offset>
+			<area>small</area>
+			<holdtime>short</holdtime>
+			<flighttime>short</flighttime>
+		</letter>
+		<letter char="n">
+			<offset>center</offset>
+			<area>small</area>
+			<holdtime>short</holdtime>
+			<flighttime>short</flighttime>
+		</letter>
+		<letter char="e">
+			<offset>center</offset>
+			<area>small</area>
+			<holdtime>short</holdtime>
+			<flighttime>short</flighttime>
+		</letter>
+		<letter char="c">
+			<offset>center</offset>
+			<area>small</area>
+			<holdtime>short</holdtime>
+			<flighttime>short</flighttime>
+		</letter>
+		<letter char="t">
+			<offset>center</offset>
+			<area>small</area>
+			<holdtime>short</holdtime>
+			<flighttime>short</flighttime>
+		</letter>
+	</task>
+	
+	<task taskId="3" numberOfReps="10">
+		<letter char="a">
+			<offset>center</offset>
+			<area>small</area>
+			<holdtime>short</holdtime>
+			<flighttime>short</flighttime>
+		</letter>
+		<letter char="c">
+			<offset>center</offset>
+			<area>small</area>
+			<holdtime>short</holdtime>
+			<flighttime>short</flighttime>
+		</letter>
+		<letter char="c">
+			<offset>center</offset>
+			<area>small</area>
+			<holdtime>short</holdtime>
+			<flighttime>short</flighttime>
+		</letter>
+		<letter char="e">
+			<offset>center</offset>
+			<area>small</area>
+			<holdtime>short</holdtime>
+			<flighttime>short</flighttime>
+		</letter>
+		<letter char="p">
+			<offset>center</offset>
+			<area>small</area>
+			<holdtime>short</holdtime>
+			<flighttime>short</flighttime>
+		</letter>
+		<letter char="t">
+			<offset>center</offset>
+			<area>small</area>
+			<holdtime>short</holdtime>
+			<flighttime>short</flighttime>
+		</letter>
+	</task>
+</taskList>
