@@ -1,30 +1,167 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <taskList>
-	<task taskId="1" numberOfReps="10">
-		<letter char="p" offset="center" area="small" htime="short" ftime="short"/>
-		<letter char="a" offset="center" area="small" htime="short" ftime="short"/>
-		<letter char="s" offset="center" area="small" htime="short" ftime="short"/>
-		<letter char="s" offset="center" area="small" htime="short" ftime="short"/>
-		<letter char="w" offset="center" area="small" htime="short" ftime="short"/>
-		<letter char="o" offset="center" area="small" htime="short" ftime="short"/>
-		<letter char="r" offset="center" area="small" htime="short" ftime="short"/>
-		<letter char="d" offset="center" area="small" htime="short" ftime="short"/>
-	</task>
-	<task taskId="2" numberOfReps="10">
-		<letter char="c" offset="center" area="small" htime="short" ftime="short"/>
-		<letter char="o" offset="center" area="small" htime="short" ftime="short"/>
-		<letter char="n" offset="center" area="small" htime="short" ftime="short"/>
-		<letter char="n" offset="center" area="small" htime="short" ftime="short"/>
-		<letter char="e" offset="center" area="small" htime="short" ftime="short"/>
-		<letter char="c" offset="center" area="small" htime="short" ftime="short"/>
-		<letter char="t" offset="center" area="small" htime="short" ftime="short"/>
-	</task>
-	<task taskId="3" numberOfReps="10">
-		<letter char="a" offset="center" area="small" htime="short" ftime="short"/>
-		<letter char="c" offset="center" area="small" htime="short" ftime="short"/>
-		<letter char="c" offset="center" area="small" htime="short" ftime="short"/>
-		<letter char="e" offset="center" area="small" htime="short" ftime="short"/>
-		<letter char="p" offset="center" area="small" htime="short" ftime="short"/>
-		<letter char="t" offset="center" area="small" htime="short" ftime="short"/>
-	</task>
+    <!--Introduction-->
+    <task taskId="1" numberOfReps="10">
+        <letter char="p" offset="center" area="small" htime="short" ftime="short"/>
+        <letter char="a" offset="center" area="small" htime="short" ftime="short"/>
+        <letter char="s" offset="center" area="small" htime="short" ftime="short"/>
+        <letter char="s" offset="center" area="small" htime="short" ftime="short"/>
+        <letter char="w" offset="center" area="small" htime="short" ftime="short"/>
+        <letter char="o" offset="center" area="small" htime="short" ftime="short"/>
+        <letter char="r" offset="center" area="small" htime="short" ftime="short"/>
+        <letter char="d" offset="center" area="small" htime="short" ftime="short"/>
+    </task>
+    <task taskId="2" numberOfReps="10">
+        <letter char="c" offset="center" area="small" htime="short" ftime="short"/>
+        <letter char="o" offset="center" area="small" htime="short" ftime="short"/>
+        <letter char="n" offset="center" area="small" htime="short" ftime="short"/>
+        <letter char="n" offset="center" area="small" htime="short" ftime="short"/>
+        <letter char="e" offset="center" area="small" htime="short" ftime="short"/>
+        <letter char="c" offset="center" area="small" htime="short" ftime="short"/>
+        <letter char="t" offset="center" area="small" htime="short" ftime="short"/>
+    </task>
+    <task taskId="3" numberOfReps="10">
+        <letter char="a" offset="center" area="small" htime="short" ftime="short"/>
+        <letter char="c" offset="center" area="small" htime="short" ftime="short"/>
+        <letter char="c" offset="center" area="small" htime="short" ftime="short"/>
+        <letter char="e" offset="center" area="small" htime="short" ftime="short"/>
+        <letter char="p" offset="center" area="small" htime="short" ftime="short"/>
+        <letter char="t" offset="center" area="small" htime="short" ftime="short"/>
+    </task>
+    <!--Offset-->
+    <!--Offset l/r-->
+    <task taskId="4" numberOfReps="10">
+        <letter char="p" offset="right" area="small" htime="short" ftime="short"/>
+        <letter char="a" offset="center" area="small" htime="short" ftime="short"/>
+        <letter char="s" offset="center" area="small" htime="short" ftime="short"/>
+        <letter char="s" offset="center" area="small" htime="short" ftime="short"/>
+        <letter char="w" offset="left" area="small" htime="short" ftime="short"/>
+        <letter char="o" offset="center" area="small" htime="short" ftime="short"/>
+        <letter char="r" offset="center" area="small" htime="short" ftime="short"/>
+        <letter char="d" offset="center" area="small" htime="short" ftime="short"/>
+    </task>
+    <!--Offset o/u-->
+    <task taskId="5" numberOfReps="10">
+        <letter char="p" offset="bottom" area="small" htime="short" ftime="short"/>
+        <letter char="a" offset="center" area="small" htime="short" ftime="short"/>
+        <letter char="s" offset="center" area="small" htime="short" ftime="short"/>
+        <letter char="s" offset="center" area="small" htime="short" ftime="short"/>
+        <letter char="w" offset="top" area="small" htime="short" ftime="short"/>
+        <letter char="o" offset="center" area="small" htime="short" ftime="short"/>
+        <letter char="r" offset="center" area="small" htime="short" ftime="short"/>
+        <letter char="d" offset="center" area="small" htime="short" ftime="short"/>
+    </task>
+    <!--Offset double switch l/r-->
+    <task taskId="6" numberOfReps="10">
+        <letter char="p" offset="center" area="small" htime="short" ftime="short"/>
+        <letter char="a" offset="center" area="small" htime="short" ftime="short"/>
+        <letter char="s" offset="left" area="small" htime="short" ftime="short"/>
+        <letter char="s" offset="right" area="small" htime="short" ftime="short"/>
+        <letter char="w" offset="center" area="small" htime="short" ftime="short"/>
+        <letter char="o" offset="center" area="small" htime="short" ftime="short"/>
+        <letter char="r" offset="center" area="small" htime="short" ftime="short"/>
+        <letter char="d" offset="center" area="small" htime="short" ftime="short"/>
+    </task>
+    <!--Offset double letter switch o/u-->
+    <task taskId="7" numberOfReps="10">
+        <letter char="p" offset="center" area="small" htime="short" ftime="short"/>
+        <letter char="a" offset="center" area="small" htime="short" ftime="short"/>
+        <letter char="s" offset="top" area="small" htime="short" ftime="short"/>
+        <letter char="s" offset="bottom" area="small" htime="short" ftime="short"/>
+        <letter char="w" offset="center" area="small" htime="short" ftime="short"/>
+        <letter char="o" offset="center" area="small" htime="short" ftime="short"/>
+        <letter char="r" offset="center" area="small" htime="short" ftime="short"/>
+        <letter char="d" offset="center" area="small" htime="short" ftime="short"/>
+    </task>
+    <!--Offset overshoot-->
+    <task taskId="8" numberOfReps="10">
+        <letter char="p" offset="center" area="small" htime="short" ftime="short"/>
+        <letter char="a" offset="right" area="small" htime="short" ftime="short"/>
+        <letter char="s" offset="center" area="small" htime="short" ftime="short"/>
+        <letter char="s" offset="center" area="small" htime="short" ftime="short"/>
+        <letter char="w" offset="center" area="small" htime="short" ftime="short"/>
+        <letter char="o" offset="left" area="small" htime="short" ftime="short"/>
+        <letter char="r" offset="center" area="small" htime="short" ftime="short"/>
+        <letter char="d" offset="center" area="small" htime="short" ftime="short"/>
+    </task>
+    <!--Holdtime-->
+    <!--Holdtime long-->
+    <task taskId="9" numberOfReps="10">
+        <letter char="p" offset="center" area="small" htime="short" ftime="short"/>
+        <letter char="a" offset="center" area="small" htime="short" ftime="short"/>
+        <letter char="s" offset="center" area="small" htime="short" ftime="short"/>
+        <letter char="s" offset="center" area="small" htime="short" ftime="short"/>
+        <letter char="w" offset="center" area="small" htime="short" ftime="short"/>
+        <letter char="o" offset="center" area="small" htime="long" ftime="short"/>
+        <letter char="r" offset="center" area="small" htime="short" ftime="short"/>
+        <letter char="d" offset="center" area="small" htime="long" ftime="short"/>
+    </task>
+    <!--Holdtime long double letter-->
+    <task taskId="10" numberOfReps="10">
+        <letter char="p" offset="center" area="small" htime="short" ftime="short"/>
+        <letter char="a" offset="center" area="small" htime="short" ftime="short"/>
+        <letter char="s" offset="center" area="small" htime="long" ftime="short"/>
+        <letter char="s" offset="center" area="small" htime="short" ftime="short"/>
+        <letter char="w" offset="center" area="small" htime="short" ftime="short"/>
+        <letter char="o" offset="center" area="small" htime="short" ftime="short"/>
+        <letter char="r" offset="center" area="small" htime="short" ftime="short"/>
+        <letter char="d" offset="center" area="small" htime="short" ftime="short"/>
+    </task>
+    <!--Flighttime-->
+    <!--Flighttime long-->
+    <task taskId="11" numberOfReps="10">
+        <letter char="p" offset="center" area="small" htime="short" ftime="short"/>
+        <letter char="a" offset="center" area="small" htime="short" ftime="long"/>
+        <letter char="s" offset="center" area="small" htime="short" ftime="short"/>
+        <letter char="s" offset="center" area="small" htime="short" ftime="short"/>
+        <letter char="w" offset="center" area="small" htime="short" ftime="short"/>
+        <letter char="o" offset="center" area="small" htime="short" ftime="long"/>
+        <letter char="r" offset="center" area="small" htime="short" ftime="short"/>
+        <letter char="d" offset="center" area="small" htime="short" ftime="short"/>
+    </task>
+    <!--Flighttime short at wide distance??-->
+    <task taskId="12" numberOfReps="10">
+        <letter char="p" offset="center" area="small" htime="short" ftime="short"/>
+        <letter char="a" offset="center" area="small" htime="short" ftime="short"/>
+        <letter char="s" offset="center" area="small" htime="short" ftime="short"/>
+        <letter char="s" offset="center" area="small" htime="short" ftime="short"/>
+        <letter char="w" offset="center" area="small" htime="short" ftime="short"/>
+        <letter char="o" offset="center" area="small" htime="short" ftime="short"/>
+        <letter char="r" offset="center" area="small" htime="short" ftime="short"/>
+        <letter char="d" offset="center" area="small" htime="short" ftime="short"/>
+    </task>
+    <!--Flighttime long at short distance-->
+    <task taskId="13" numberOfReps="10">
+        <letter char="p" offset="center" area="small" htime="short" ftime="short"/>
+        <letter char="a" offset="center" area="small" htime="short" ftime="short"/>
+        <letter char="s" offset="center" area="small" htime="short" ftime="long"/>
+        <letter char="s" offset="center" area="small" htime="short" ftime="short"/>
+        <letter char="w" offset="center" area="small" htime="short" ftime="long"/>
+        <letter char="o" offset="center" area="small" htime="short" ftime="short"/>
+        <letter char="r" offset="center" area="small" htime="short" ftime="short"/>
+        <letter char="d" offset="center" area="small" htime="short" ftime="short"/>
+    </task>
+    <!--Area-->
+    <!--Area big-->
+    <task taskId="14" numberOfReps="10">
+        <letter char="p" offset="center" area="big" htime="short" ftime="short"/>
+        <letter char="a" offset="center" area="small" htime="short" ftime="short"/>
+        <letter char="s" offset="center" area="small" htime="short" ftime="short"/>
+        <letter char="s" offset="center" area="small" htime="short" ftime="short"/>
+        <letter char="w" offset="center" area="small" htime="short" ftime="short"/>
+        <letter char="o" offset="center" area="small" htime="short" ftime="short"/>
+        <letter char="r" offset="center" area="big" htime="short" ftime="short"/>
+        <letter char="d" offset="center" area="small" htime="short" ftime="short"/>
+    </task>
+    <!--Area big/small double letter switch-->
+    <task taskId="15" numberOfReps="10">
+        <letter char="p" offset="center" area="small" htime="short" ftime="short"/>
+        <letter char="a" offset="center" area="small" htime="short" ftime="short"/>
+        <letter char="s" offset="center" area="big" htime="short" ftime="short"/>
+        <letter char="s" offset="center" area="small" htime="short" ftime="short"/>
+        <letter char="w" offset="center" area="small" htime="short" ftime="short"/>
+        <letter char="o" offset="center" area="small" htime="short" ftime="short"/>
+        <letter char="r" offset="center" area="small" htime="short" ftime="short"/>
+        <letter char="d" offset="center" area="small" htime="short" ftime="short"/>
+    </task>
 </taskList>
