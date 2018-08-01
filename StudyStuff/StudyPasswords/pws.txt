@@ -1,18 +1,22 @@
 password	großer abstand bei (pa, wo, or) kleiner abstand bei (as, sw, rd)
+
 football	großer abstand bei (fo, al), kleiner abstand bei tb
+tomorrow	großer abstand bei ow, kleiner abstand bei (om, mo)
+careless	großer abstand bei (el, le), kleiner abstand bei (ca, es)
+opposing	großer abstand bei (os, si), kleiner abstand bei (op, po)
+barracks	großer abstand bei (ck, ks), kleiner abstand bei
+collapse	großer abstand bei (co, la), kleiner abstand bei se
+
 connect		großer abstand bei co, keiner abstand bei ec
 getting		kein großer abstand, kleiner abstand bei ng
 classic		großer abstand bei (l, la, si, ic), kleiner abstand bei as
 suggest		großer abstand bei su, kleienr abstand bei est
 spilled		großer abstand bei (sp, le), kleiner abstand bei (pi, il)
-opposing	großer abstand bei (os, si), kleiner abstand bei (op, po)
+comment		großer abstand bei (co, me), kleiner abstand bei (om)
+
 letter		großer abstand bei le, kleiner abstand bei (te, er)
-careless	großer abstand bei (el, le), kleiner abstand bei (ca, es)
-tomorrow	großer abstand bei ow, kleiner abstand bei (om, mo)
-barracks	großer abstand bei (ck, ks), kleiner abstand bei 
+killer		großer abstand bei le, kleiner abstand bei (ki, il, er)
 effort		großer abstand bei fo [nicht sehr groß], kleiner abstand bei (ef, rt)
 accept		großer abstand bei ep, kleiner abstand bei (ac, ce)
-collapse	großer abstand bei (co, la), kleiner abstand bei se
 loose		großer abstand bei os, kleiner abstand bei (lo, se)
-comment		großer abstand bei (co, me), kleiner abstand bei (om)
-killer		großer abstand bei le, kleiner abstand bei (ki, il, er)
+
