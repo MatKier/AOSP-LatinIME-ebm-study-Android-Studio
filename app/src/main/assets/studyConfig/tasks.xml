@@ -14,7 +14,7 @@
             <letter char="d" offset="center" area="small" htime="short" ftime="short"/>
         </task>
         <!--Double letter-->
-        <task taskId="2  " numberOfReps="10">
+        <task taskId="2" numberOfReps="10">
             <letter char="f" offset="center" area="small" htime="short" ftime="short"/>
             <letter char="o" offset="center" area="small" htime="short" ftime="short"/>
             <letter char="o" offset="center" area="small" htime="short" ftime="short"/>
