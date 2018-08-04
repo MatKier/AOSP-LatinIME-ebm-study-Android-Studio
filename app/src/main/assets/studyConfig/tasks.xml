@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <taskList>
     <!--Introduction-->
-    <taskgroup groupId="1">
+    <taskgroup groupId="1" isIntroductionGroup="true">
         <!--Standard-->
         <task taskId="1" numberOfReps="10">
             <letter char="p" offset="center" area="small" htime="short" ftime="short"/>
@@ -49,7 +49,7 @@
     </taskgroup>
 
     <!--Offset-->
-    <taskgroup groupId="2">
+    <taskgroup groupId="2" isIntroductionGroup="false">
         <!--Offset l/r-->
         <task taskId="5" numberOfReps="10">
             <letter char="p" offset="left" area="small" htime="short" ftime="short"/>
@@ -109,7 +109,7 @@
 
     <!--Holdtime-->
     <!--TODO default htime?-->
-    <taskgroup groupId="3">
+    <taskgroup groupId="3" isIntroductionGroup="false">
         <!--Holdtime long-->
         <task taskId="10" numberOfReps="10">
             <letter char="p" offset="center" area="small" htime="long" ftime="short"/>
@@ -135,7 +135,7 @@
     </taskgroup>
 
     <!--Flighttime-->
-    <taskgroup groupId="4">
+    <taskgroup groupId="4" isIntroductionGroup="false">
         <!--Flighttime long-->
         <!--TODO -->
         <task taskId="12" numberOfReps="10">
@@ -174,7 +174,7 @@
     </taskgroup>
 
     <!--Area-->
-    <taskgroup groupId="5">
+    <taskgroup groupId="5" isIntroductionGroup="false">
         <!--Area big-->
         <task taskId="15" numberOfReps="10">
             <letter char="p" offset="center" area="big" htime="short" ftime="short"/>
