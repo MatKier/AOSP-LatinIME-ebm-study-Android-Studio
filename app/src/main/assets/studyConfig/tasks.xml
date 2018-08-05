@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <taskList>
     <!--Introduction-->
-    <taskgroup groupId="1" isIntroductionGroup="true">
+    <taskgroup groupId="1" isIntroductionGroup="false">
         <!--Standard-->
         <task taskId="1" numberOfReps="10">
             <letter char="p" offset="center" area="small" htime="short" ftime="short"/>
