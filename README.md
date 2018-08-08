@@ -2,7 +2,7 @@
 This Project is based on the LatinIME Android Keyboard (ttps://android.googlesource.com/platform/packages/inputmethods/LatinIME) and Iwo Banaś' (https://github.com/iwo/LatinIME-Android-Studio) Gradle build configuration.
 The LatinIME was modified in two ways: 
 1. It contains a logger class for logging all Keyevents (up&down including all interesting properties) to csv files 
-2. It contains a second launcher activity which is used for a behavior biometrics user study
+2. It contains activities which are used for a behavior biometrics user study
 
 The aim of this project and the corresponding user study is to check if (and how well) people can actively control their typing behavior regarding the following properties: key offset, hold time, flight time and touch area.
 
