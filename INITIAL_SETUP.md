@@ -30,5 +30,8 @@
   * put the libs in app/src/jiLibs
 * git submodule add https://android.googlesource.com/platform/frameworks/opt/inputmethodcommon
 * git submodule add https://github.com/MatKier/AOSP-LatinIME-for-explicit-behavior-modification-study.git LatinIME
+* cd LatinIME
+* git checkout master
+* cd ..
 * git commit -m "added submodules and jniLibs"
 * git push -u origin master
