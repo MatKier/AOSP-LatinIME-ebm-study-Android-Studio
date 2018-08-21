@@ -2,8 +2,8 @@
 <taskList>
     <!--Introduction-->
 	<featureGroup featureCount="0">
-		<taskGroup groupId="1" isIntroductionGroup="true" name="introduction">
-			<task taskId="1" numberOfReps="10">
+		<taskGroup groupId="1" sortingGroupId="01" isIntroductionGroup="true" name="introduction">
+			<task taskId="1" sortingTaskId="01" numberOfReps="10">
 				<letter char="f" offset="center" area="small" htime="default" ftime="default"/>
 				<letter char="o" offset="center" area="small" htime="default" ftime="default"/>
 				<letter char="o" offset="center" area="small" htime="default" ftime="default"/>
@@ -13,7 +13,7 @@
 				<letter char="l" offset="center" area="small" htime="default" ftime="default"/>
 				<letter char="l" offset="center" area="small" htime="default" ftime="default"/>
 			</task>
-			<task taskId="2" numberOfReps="10">
+			<task taskId="2" sortingTaskId="02" numberOfReps="10">
 				<letter char="p" offset="center" area="small" htime="default" ftime="default"/>
 				<letter char="a" offset="center" area="small" htime="default" ftime="default"/>
 				<letter char="s" offset="center" area="small" htime="default" ftime="default"/>
@@ -23,7 +23,7 @@
 				<letter char="r" offset="center" area="small" htime="default" ftime="default"/>
 				<letter char="d" offset="center" area="small" htime="default" ftime="default"/>
 			</task>
-			<task taskId="3" numberOfReps="10">
+			<task taskId="3" sortingTaskId="03" numberOfReps="10">
 				<letter char="o" offset="center" area="small" htime="default" ftime="default"/>
 				<letter char="p" offset="center" area="small" htime="default" ftime="default"/>
 				<letter char="p" offset="center" area="small" htime="default" ftime="default"/>
@@ -39,8 +39,8 @@
 	<!--1 Feature-->
 	<featureGroup featureCount="1">
 		<!--Offset-->
-		<taskGroup groupId="2" isIntroductionGroup="false" name="offset">
-			<task taskId="4" numberOfReps="10">
+		<taskGroup groupId="2" sortingGroupId="02" isIntroductionGroup="false" name="offset">
+			<task taskId="4" sortingTaskId="04" numberOfReps="10">
 				<letter char="p" offset="center" area="small" htime="default" ftime="default"/>
 				<letter char="a" offset="left" area="small" htime="default" ftime="default"/>
 				<letter char="s" offset="center" area="small" htime="default" ftime="default"/>
@@ -50,7 +50,7 @@
 				<letter char="r" offset="center" area="small" htime="default" ftime="default"/>
 				<letter char="d" offset="center" area="small" htime="default" ftime="default"/>
 			</task>
-			<task taskId="5" numberOfReps="10">
+			<task taskId="5" sortingTaskId="05" numberOfReps="10">
 				<letter char="o" offset="center" area="small" htime="default" ftime="default"/>
 				<letter char="p" offset="left" area="small" htime="default" ftime="default"/>
 				<letter char="p" offset="center" area="small" htime="default" ftime="default"/>
@@ -60,7 +60,7 @@
 				<letter char="n" offset="right" area="small" htime="default" ftime="default"/>
 				<letter char="g" offset="center" area="small" htime="default" ftime="default"/>
 			</task>
-			<task taskId="6" numberOfReps="10">
+			<task taskId="6" sortingTaskId="06" numberOfReps="10">
 				<letter char="f" offset="center" area="small" htime="default" ftime="default"/>
 				<letter char="o" offset="left" area="small" htime="default" ftime="default"/>
 				<letter char="o" offset="center" area="small" htime="default" ftime="default"/>
@@ -72,8 +72,8 @@
 			</task>
 		</taskGroup>
 		<!--Holdtime-->
-		<taskGroup groupId="3" isIntroductionGroup="false" name="holdtime">
-			<task taskId="7" numberOfReps="10">
+		<taskGroup groupId="3" sortingGroupId="03" isIntroductionGroup="false" name="holdtime">
+			<task taskId="7" sortingTaskId="07" numberOfReps="10">
 				<letter char="o" offset="center" area="small" htime="default" ftime="default"/>
 				<letter char="p" offset="center" area="small" htime="long" ftime="default"/>
 				<letter char="p" offset="center" area="small" htime="default" ftime="default"/>
@@ -83,7 +83,7 @@
 				<letter char="n" offset="center" area="small" htime="default" ftime="default"/>
 				<letter char="g" offset="center" area="small" htime="default" ftime="default"/>
 			</task>
-			<task taskId="8" numberOfReps="10">
+			<task taskId="8" sortingTaskId="08" numberOfReps="10">
 				<letter char="f" offset="center" area="small" htime="default" ftime="default"/>
 				<letter char="o" offset="center" area="small" htime="long" ftime="default"/>
 				<letter char="o" offset="center" area="small" htime="default" ftime="default"/>
@@ -93,7 +93,7 @@
 				<letter char="l" offset="center" area="small" htime="short" ftime="default"/>
 				<letter char="l" offset="center" area="small" htime="default" ftime="default"/>
 			</task>
-			<task taskId="9" numberOfReps="10">
+			<task taskId="9" sortingTaskId="09" numberOfReps="10">
 				<letter char="p" offset="center" area="small" htime="default" ftime="default"/>
 				<letter char="a" offset="center" area="small" htime="long" ftime="default"/>
 				<letter char="s" offset="center" area="small" htime="default" ftime="default"/>
@@ -105,8 +105,8 @@
 			</task>
 		</taskGroup>
 		<!--Flighttime-->
-		<taskGroup groupId="4" isIntroductionGroup="false" name="flighttime">
-			<task taskId="10" numberOfReps="10">
+		<taskGroup groupId="4" sortingGroupId="04" isIntroductionGroup="false" name="flighttime">
+			<task taskId="10" sortingTaskId="10" numberOfReps="10">
 				<letter char="f" offset="center" area="small" htime="default" ftime="default"/>
 				<letter char="o" offset="center" area="small" htime="default" ftime="long"/>
 				<letter char="o" offset="center" area="small" htime="default" ftime="default"/>
@@ -116,7 +116,7 @@
 				<letter char="l" offset="center" area="small" htime="default" ftime="default"/>
 				<letter char="l" offset="center" area="small" htime="default" ftime="default"/>
 			</task>
-			<task taskId="11" numberOfReps="10">
+			<task taskId="11" sortingTaskId="11" numberOfReps="10">
 				<letter char="p" offset="center" area="small" htime="default" ftime="default"/>
 				<letter char="a" offset="center" area="small" htime="default" ftime="long"/>
 				<letter char="s" offset="center" area="small" htime="default" ftime="default"/>
@@ -126,7 +126,7 @@
 				<letter char="r" offset="center" area="small" htime="default" ftime="short"/>
 				<letter char="d" offset="center" area="small" htime="default" ftime="default"/>
 			</task>
-			<task taskId="12" numberOfReps="10">
+			<task taskId="12" sortingTaskId="12" numberOfReps="10">
 				<letter char="o" offset="center" area="small" htime="default" ftime="default"/>
 				<letter char="p" offset="center" area="small" htime="default" ftime="long"/>
 				<letter char="p" offset="center" area="small" htime="default" ftime="default"/>
@@ -138,8 +138,8 @@
 			</task>
 		</taskGroup>
 		<!--Area-->
-		<taskGroup groupId="5" isIntroductionGroup="false" name="area">
-			<task taskId="13" numberOfReps="10">
+		<taskGroup groupId="5" sortingGroupId="05" isIntroductionGroup="false" name="area">
+			<task taskId="13" sortingTaskId="13" numberOfReps="10">
 				<letter char="p" offset="center" area="small" htime="default" ftime="default"/>
 				<letter char="a" offset="center" area="big" htime="default" ftime="default"/>
 				<letter char="s" offset="center" area="small" htime="default" ftime="default"/>
@@ -149,7 +149,7 @@
 				<letter char="r" offset="center" area="small" htime="default" ftime="default"/>
 				<letter char="d" offset="center" area="small" htime="default" ftime="default"/>
 			</task>
-			<task taskId="14" numberOfReps="10">
+			<task taskId="14" sortingTaskId="14" numberOfReps="10">
 				<letter char="o" offset="center" area="small" htime="default" ftime="default"/>
 				<letter char="p" offset="center" area="big" htime="default" ftime="default"/>
 				<letter char="p" offset="center" area="small" htime="default" ftime="default"/>
@@ -159,7 +159,7 @@
 				<letter char="n" offset="center" area="big" htime="default" ftime="default"/>
 				<letter char="g" offset="center" area="small" htime="default" ftime="default"/>
 			</task>
-			<task taskId="15" numberOfReps="10">
+			<task taskId="15" sortingTaskId="15" numberOfReps="10">
 				<letter char="f" offset="center" area="small" htime="default" ftime="default"/>
 				<letter char="o" offset="center" area="big" htime="default" ftime="default"/>
 				<letter char="o" offset="center" area="small" htime="default" ftime="default"/>
@@ -175,8 +175,8 @@
 	<!--2 Features-->
 	<featureGroup featureCount="2">
 		<!--Offset + Holdtime-->
-		<taskGroup groupId="6" isIntroductionGroup="false" name="offset+holdtime">
-			<task taskId="16" numberOfReps="10">
+		<taskGroup groupId="6" sortingGroupId="06" isIntroductionGroup="false" name="offset+holdtime">
+			<task taskId="16" sortingTaskId="16" numberOfReps="10">
 				<letter char="o" offset="center" area="small" htime="default" ftime="default"/>
 				<letter char="p" offset="left" area="small" htime="default" ftime="default"/>
 				<letter char="p" offset="center" area="small" htime="long" ftime="default"/>
@@ -186,7 +186,7 @@
 				<letter char="n" offset="center" area="small" htime="default" ftime="default"/>
 				<letter char="g" offset="center" area="small" htime="default" ftime="default"/>
 			</task>
-			<task taskId="17" numberOfReps="10">
+			<task taskId="17" sortingTaskId="17" numberOfReps="10">
 				<letter char="f" offset="center" area="small" htime="default" ftime="default"/>
 				<letter char="o" offset="center" area="small" htime="default" ftime="default"/>
 				<letter char="o" offset="center" area="small" htime="default" ftime="default"/>
@@ -196,7 +196,7 @@
 				<letter char="l" offset="right" area="small" htime="short" ftime="default"/>
 				<letter char="l" offset="center" area="small" htime="default" ftime="default"/>
 			</task>
-			<task taskId="18" numberOfReps="10">
+			<task taskId="18" sortingTaskId="18" numberOfReps="10">
 				<letter char="p" offset="center" area="small" htime="default" ftime="default"/>
 				<letter char="a" offset="top" area="small" htime="default" ftime="default"/>
 				<letter char="s" offset="center" area="small" htime="default" ftime="default"/>
@@ -208,8 +208,8 @@
 			</task>
 		</taskGroup>
 		<!--Offset + Flighttime-->
-		<taskGroup groupId="7" isIntroductionGroup="false" name="offset+flighttime">
-			<task taskId="19" numberOfReps="10">
+		<taskGroup groupId="7" sortingGroupId="07" isIntroductionGroup="false" name="offset+flighttime">
+			<task taskId="19" sortingTaskId="19" numberOfReps="10">
 				<letter char="f" offset="center" area="small" htime="default" ftime="default"/>
 				<letter char="o" offset="left" area="small" htime="default" ftime="default"/>
 				<letter char="o" offset="center" area="small" htime="default" ftime="long"/>
@@ -219,7 +219,7 @@
 				<letter char="l" offset="center" area="small" htime="default" ftime="default"/>
 				<letter char="l" offset="center" area="small" htime="default" ftime="default"/>
 			</task>
-			<task taskId="20" numberOfReps="10">
+			<task taskId="20" sortingTaskId="20" numberOfReps="10">
 				<letter char="p" offset="center" area="small" htime="default" ftime="default"/>
 				<letter char="a" offset="center" area="small" htime="default" ftime="default"/>
 				<letter char="s" offset="center" area="small" htime="default" ftime="default"/>
@@ -229,7 +229,7 @@
 				<letter char="r" offset="right" area="small" htime="default" ftime="short"/>
 				<letter char="d" offset="center" area="small" htime="default" ftime="default"/>
 			</task>
-			<task taskId="21" numberOfReps="10">
+			<task taskId="21" sortingTaskId="21" numberOfReps="10">
 				<letter char="o" offset="center" area="small" htime="default" ftime="default"/>
 				<letter char="p" offset="top" area="small" htime="default" ftime="default"/>
 				<letter char="p" offset="center" area="small" htime="default" ftime="default"/>
@@ -241,8 +241,8 @@
 			</task>
 		</taskGroup>
 		<!--Offset + Area-->
-		<taskGroup groupId="8" isIntroductionGroup="false" name="offset+area">
-			<task taskId="22" numberOfReps="10">
+		<taskGroup groupId="8" sortingGroupId="08" isIntroductionGroup="false" name="offset+area">
+			<task taskId="22" sortingTaskId="22" numberOfReps="10">
 				<letter char="p" offset="center" area="small" htime="default" ftime="default"/>
 				<letter char="a" offset="left" area="small" htime="default" ftime="default"/>
 				<letter char="s" offset="center" area="big" htime="default" ftime="default"/>
@@ -252,7 +252,7 @@
 				<letter char="r" offset="center" area="small" htime="default" ftime="default"/>
 				<letter char="d" offset="center" area="small" htime="default" ftime="default"/>
 			</task>
-			<task taskId="23" numberOfReps="10">
+			<task taskId="23" sortingTaskId="23" numberOfReps="10">
 				<letter char="o" offset="center" area="small" htime="default" ftime="default"/>
 				<letter char="p" offset="center" area="small" htime="default" ftime="default"/>
 				<letter char="p" offset="center" area="small" htime="default" ftime="default"/>
@@ -262,7 +262,7 @@
 				<letter char="n" offset="right" area="big" htime="default" ftime="default"/>
 				<letter char="g" offset="center" area="small" htime="default" ftime="default"/>
 			</task>
-			<task taskId="24" numberOfReps="10">
+			<task taskId="24" sortingTaskId="24" numberOfReps="10">
 				<letter char="f" offset="center" area="small" htime="default" ftime="default"/>
 				<letter char="o" offset="top" area="small" htime="default" ftime="default"/>
 				<letter char="o" offset="center" area="small" htime="default" ftime="default"/>
@@ -274,8 +274,8 @@
 			</task>
 		</taskGroup>
 		<!--Holdtime + Flighttime-->
-		<taskGroup groupId="9" isIntroductionGroup="false" name="holdtime+flighttime">
-			<task taskId="25" numberOfReps="10">
+		<taskGroup groupId="9" sortingGroupId="09" isIntroductionGroup="false" name="holdtime+flighttime">
+			<task taskId="25" sortingTaskId="25" numberOfReps="10">
 				<letter char="o" offset="center" area="small" htime="default" ftime="default"/>
 				<letter char="p" offset="center" area="small" htime="long" ftime="default"/>
 				<letter char="p" offset="center" area="small" htime="default" ftime="long"/>
@@ -285,7 +285,7 @@
 				<letter char="n" offset="center" area="small" htime="default" ftime="default"/>
 				<letter char="g" offset="center" area="small" htime="default" ftime="default"/>
 			</task>
-			<task taskId="26" numberOfReps="10">
+			<task taskId="26" sortingTaskId="26" numberOfReps="10">
 				<letter char="f" offset="center" area="small" htime="default" ftime="default"/>
 				<letter char="o" offset="center" area="small" htime="default" ftime="default"/>
 				<letter char="o" offset="center" area="small" htime="default" ftime="default"/>
@@ -295,7 +295,7 @@
 				<letter char="l" offset="center" area="small" htime="short" ftime="short"/>
 				<letter char="l" offset="center" area="small" htime="default" ftime="default"/>
 			</task>
-			<task taskId="27" numberOfReps="10">
+			<task taskId="27" sortingTaskId="27" numberOfReps="10">
 				<letter char="p" offset="center" area="small" htime="default" ftime="default"/>
 				<letter char="a" offset="center" area="small" htime="long" ftime="default"/>
 				<letter char="s" offset="center" area="small" htime="default" ftime="default"/>
@@ -307,8 +307,8 @@
 			</task>
 		</taskGroup>
 		<!--Holdtime + Area-->
-		<taskGroup groupId="10" isIntroductionGroup="false" name="holdtime+area">
-			<task taskId="28" numberOfReps="10">
+		<taskGroup groupId="10" sortingGroupId="10" isIntroductionGroup="false" name="holdtime+area">
+			<task taskId="28" sortingTaskId="28" numberOfReps="10">
 				<letter char="f" offset="center" area="small" htime="default" ftime="default"/>
 				<letter char="o" offset="center" area="small" htime="long" ftime="default"/>
 				<letter char="o" offset="center" area="big" htime="default" ftime="default"/>
@@ -318,7 +318,7 @@
 				<letter char="l" offset="center" area="small" htime="default" ftime="default"/>
 				<letter char="l" offset="center" area="small" htime="default" ftime="default"/>
 			</task>
-			<task taskId="29" numberOfReps="10">
+			<task taskId="29" sortingTaskId="29" numberOfReps="10">
 				<letter char="p" offset="center" area="small" htime="default" ftime="default"/>
 				<letter char="a" offset="center" area="small" htime="default" ftime="default"/>
 				<letter char="s" offset="center" area="small" htime="default" ftime="default"/>
@@ -328,7 +328,7 @@
 				<letter char="r" offset="center" area="big" htime="short" ftime="default"/>
 				<letter char="d" offset="center" area="small" htime="default" ftime="default"/>
 			</task>
-			<task taskId="30" numberOfReps="10">
+			<task taskId="30" sortingTaskId="30" numberOfReps="10">
 				<letter char="o" offset="center" area="small" htime="default" ftime="default"/>
 				<letter char="p" offset="center" area="small" htime="long" ftime="default"/>
 				<letter char="p" offset="center" area="small" htime="default" ftime="default"/>
@@ -340,8 +340,8 @@
 			</task>
 		</taskGroup>
 		<!--Flighttime + Area-->
-		<taskGroup groupId="11" isIntroductionGroup="false" name="flighttime+area">
-			<task taskId="31" numberOfReps="10">
+		<taskGroup groupId="11" sortingGroupId="11" isIntroductionGroup="false" name="flighttime+area">
+			<task taskId="31" sortingTaskId="31" numberOfReps="10">
 				<letter char="p" offset="center" area="small" htime="default" ftime="default"/>
 				<letter char="a" offset="center" area="small" htime="default" ftime="long"/>
 				<letter char="s" offset="center" area="big" htime="default" ftime="default"/>
@@ -351,7 +351,7 @@
 				<letter char="r" offset="center" area="small" htime="default" ftime="default"/>
 				<letter char="d" offset="center" area="small" htime="default" ftime="default"/>
 			</task>
-			<task taskId="32" numberOfReps="10">
+			<task taskId="32" sortingTaskId="32" numberOfReps="10">
 				<letter char="o" offset="center" area="small" htime="default" ftime="default"/>
 				<letter char="p" offset="center" area="small" htime="default" ftime="default"/>
 				<letter char="p" offset="center" area="small" htime="default" ftime="default"/>
@@ -361,7 +361,7 @@
 				<letter char="n" offset="center" area="big" htime="default" ftime="short"/>
 				<letter char="g" offset="center" area="small" htime="default" ftime="default"/>
 			</task>
-			<task taskId="33" numberOfReps="10">
+			<task taskId="33" sortingTaskId="33" numberOfReps="10">
 				<letter char="f" offset="center" area="small" htime="default" ftime="default"/>
 				<letter char="o" offset="center" area="small" htime="default" ftime="long"/>
 				<letter char="o" offset="center" area="small" htime="default" ftime="default"/>
@@ -377,8 +377,8 @@
 	<!--3 Features-->
 	<featureGroup featureCount="3">
 		<!--Offset + Holdtime + Flighttime-->
-		<taskGroup groupId="12" isIntroductionGroup="false" name="offset+holdtime+flighttime">
-			<task taskId="34" numberOfReps="10">
+		<taskGroup groupId="12" sortingGroupId="12" isIntroductionGroup="false" name="offset+holdtime+flighttime">
+			<task taskId="34" sortingTaskId="34" numberOfReps="10">
 				<letter char="o" offset="center" area="small" htime="default" ftime="default"/>
 				<letter char="p" offset="left" area="small" htime="default" ftime="default"/>
 				<letter char="p" offset="center" area="small" htime="default" ftime="default"/>
@@ -388,7 +388,7 @@
 				<letter char="n" offset="center" area="small" htime="default" ftime="long"/>
 				<letter char="g" offset="center" area="small" htime="default" ftime="default"/>
 			</task>
-			<task taskId="35" numberOfReps="10">
+			<task taskId="35" sortingTaskId="35" numberOfReps="10">
 				<letter char="f" offset="center" area="small" htime="default" ftime="default"/>
 				<letter char="o" offset="center" area="small" htime="default" ftime="default"/>
 				<letter char="o" offset="center" area="small" htime="default" ftime="default"/>
@@ -398,7 +398,7 @@
 				<letter char="l" offset="center" area="small" htime="default" ftime="default"/>
 				<letter char="l" offset="center" area="small" htime="default" ftime="default"/>
 			</task>
-			<task taskId="36" numberOfReps="10">
+			<task taskId="36" sortingTaskId="36" numberOfReps="10">
 				<letter char="p" offset="top" area="small" htime="default" ftime="default"/>
 				<letter char="a" offset="center" area="small" htime="default" ftime="default"/>
 				<letter char="s" offset="center" area="small" htime="long" ftime="default"/>
@@ -410,8 +410,8 @@
 			</task>
 		</taskGroup>
 		<!--Offset + Holdtime + Area-->
-		<taskGroup groupId="13" isIntroductionGroup="false" name="offset+holdtime+area">
-			<task taskId="37" numberOfReps="10">
+		<taskGroup groupId="13" sortingGroupId="13" isIntroductionGroup="false" name="offset+holdtime+area">
+			<task taskId="37" sortingTaskId="37" numberOfReps="10">
 				<letter char="f" offset="center" area="small" htime="default" ftime="default"/>
 				<letter char="o" offset="left" area="small" htime="default" ftime="default"/>
 				<letter char="o" offset="center" area="small" htime="default" ftime="default"/>
@@ -421,7 +421,7 @@
 				<letter char="l" offset="center" area="big" htime="default" ftime="default"/>
 				<letter char="l" offset="center" area="small" htime="default" ftime="default"/>
 			</task>
-			<task taskId="38" numberOfReps="10">
+			<task taskId="38" sortingTaskId="38" numberOfReps="10">
 				<letter char="p" offset="center" area="small" htime="default" ftime="default"/>
 				<letter char="a" offset="center" area="small" htime="default" ftime="default"/>
 				<letter char="s" offset="center" area="small" htime="default" ftime="default"/>
@@ -431,7 +431,7 @@
 				<letter char="r" offset="center" area="small" htime="default" ftime="default"/>
 				<letter char="d" offset="center" area="small" htime="default" ftime="default"/>
 			</task>
-			<task taskId="39" numberOfReps="10">
+			<task taskId="39" sortingTaskId="39" numberOfReps="10">
 				<letter char="o" offset="top" area="small" htime="default" ftime="default"/>
 				<letter char="p" offset="center" area="small" htime="default" ftime="default"/>
 				<letter char="p" offset="center" area="small" htime="long" ftime="default"/>
@@ -443,8 +443,8 @@
 			</task>
 		</taskGroup>
 		<!--Offset + Flighttime + Area-->
-		<taskGroup groupId="14" isIntroductionGroup="false" name="offset+flighttime+area">
-			<task taskId="40" numberOfReps="10">
+		<taskGroup groupId="14" sortingGroupId="14" isIntroductionGroup="false" name="offset+flighttime+area">
+			<task taskId="40" sortingTaskId="40" numberOfReps="10">
 				<letter char="p" offset="center" area="small" htime="default" ftime="default"/>
 				<letter char="a" offset="left" area="small" htime="default" ftime="default"/>
 				<letter char="s" offset="center" area="small" htime="default" ftime="default"/>
@@ -454,7 +454,7 @@
 				<letter char="r" offset="center" area="big" htime="default" ftime="default"/>
 				<letter char="d" offset="center" area="small" htime="default" ftime="default"/>
 			</task>
-			<task taskId="41" numberOfReps="10">
+			<task taskId="41" sortingTaskId="41" numberOfReps="10">
 				<letter char="o" offset="center" area="small" htime="default" ftime="default"/>
 				<letter char="p" offset="center" area="small" htime="default" ftime="default"/>
 				<letter char="p" offset="center" area="small" htime="default" ftime="default"/>
@@ -464,7 +464,7 @@
 				<letter char="n" offset="center" area="small" htime="default" ftime="default"/>
 				<letter char="g" offset="center" area="small" htime="default" ftime="default"/>
 			</task>
-			<task taskId="42" numberOfReps="10">
+			<task taskId="42" sortingTaskId="42" numberOfReps="10">
 				<letter char="f" offset="top" area="small" htime="default" ftime="default"/>
 				<letter char="o" offset="center" area="small" htime="default" ftime="default"/>
 				<letter char="o" offset="center" area="small" htime="default" ftime="long"/>
@@ -476,8 +476,8 @@
 			</task>
 		</taskGroup>
 		<!--Holdtime + Flighttime + Area-->
-		<taskGroup groupId="15" isIntroductionGroup="false" name="holdtime+flighttime+area">
-			<task taskId="43" numberOfReps="10">
+		<taskGroup groupId="15" sortingGroupId="15" isIntroductionGroup="false" name="holdtime+flighttime+area">
+			<task taskId="43" sortingTaskId="43" numberOfReps="10">
 				<letter char="o" offset="center" area="small" htime="default" ftime="default"/>
 				<letter char="p" offset="center" area="small" htime="long" ftime="default"/>
 				<letter char="p" offset="center" area="small" htime="default" ftime="default"/>
@@ -487,7 +487,7 @@
 				<letter char="n" offset="center" area="big" htime="default" ftime="default"/>
 				<letter char="g" offset="center" area="small" htime="default" ftime="default"/>
 			</task>
-			<task taskId="44" numberOfReps="10">
+			<task taskId="44" sortingTaskId="44" numberOfReps="10">
 				<letter char="f" offset="center" area="small" htime="default" ftime="default"/>
 				<letter char="o" offset="center" area="small" htime="default" ftime="default"/>
 				<letter char="o" offset="center" area="small" htime="default" ftime="default"/>
@@ -497,7 +497,7 @@
 				<letter char="l" offset="center" area="small" htime="default" ftime="default"/>
 				<letter char="l" offset="center" area="small" htime="default" ftime="default"/>
 			</task>
-			<task taskId="45" numberOfReps="10">
+			<task taskId="45" sortingTaskId="45" numberOfReps="10">
 				<letter char="p" offset="center" area="small" htime="long" ftime="default"/>
 				<letter char="a" offset="center" area="small" htime="default" ftime="default"/>
 				<letter char="s" offset="center" area="small" htime="default" ftime="long"/>
@@ -513,8 +513,8 @@
 	<!--4 Features-->
 	<featureGroup featureCount="4">
 		<!--Offset + Holdtime + Flighttime + Area-->
-		<taskGroup groupId="16" isIntroductionGroup="false" name="offset+holdtime+flighttime+area">
-			<task taskId="46" numberOfReps="10">
+		<taskGroup groupId="16" sortingGroupId="16" isIntroductionGroup="false" name="offset+holdtime+flighttime+area">
+			<task taskId="46" sortingTaskId="46" numberOfReps="10">
 				<letter char="f" offset="center" area="small" htime="default" ftime="default"/>
 				<letter char="o" offset="center" area="small" htime="long" ftime="default"/>
 				<letter char="o" offset="center" area="small" htime="default" ftime="default"/>
@@ -524,7 +524,7 @@
 				<letter char="l" offset="center" area="small" htime="default" ftime="default"/>
 				<letter char="l" offset="left" area="small" htime="default" ftime="default"/>
 			</task>
-			<task taskId="47" numberOfReps="10">
+			<task taskId="47" sortingTaskId="47" numberOfReps="10">
 				<letter char="p" offset="center" area="small" htime="default" ftime="default"/>
 				<letter char="a" offset="center" area="small" htime="default" ftime="default"/>
 				<letter char="s" offset="center" area="small" htime="default" ftime="default"/>
@@ -534,7 +534,7 @@
 				<letter char="r" offset="center" area="small" htime="default" ftime="default"/>
 				<letter char="d" offset="center" area="small" htime="default" ftime="default"/>
 			</task>
-			<task taskId="48" numberOfReps="10">
+			<task taskId="48" sortingTaskId="48" numberOfReps="10">
 				<letter char="o" offset="center" area="small" htime="long" ftime="default"/>
 				<letter char="p" offset="center" area="small" htime="default" ftime="default"/>
 				<letter char="p" offset="center" area="small" htime="default" ftime="long"/>
