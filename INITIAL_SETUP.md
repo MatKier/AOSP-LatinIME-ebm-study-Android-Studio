@@ -18,7 +18,7 @@
 * git remote set-url origin https://github.com/MatKier/AOSP-LatinIME-ebm-study-Android-Studio.git
 * update gitignore
 * update build.gradle
-  * add https://maven.google.com/ jcenter() and google() to repositories
+  * add https://maven.google.com/, jcenter() and google() to repositories
   * update gradle classpath
   * add google-services to classpath
 * update app/build.gradle
