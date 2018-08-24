@@ -54,7 +54,7 @@
 				<letter char="g" offset="center" area="small" htime="default" ftime="default"/>
 			</task>
 		</taskGroup>
-		<taskGroup groupId="4" sortingGroupId="03" isIntroductionGroup="false" name="flighttime">
+		<taskGroup groupId="4" sortingGroupId="04" isIntroductionGroup="false" name="flighttime">
             <task taskId="5" sortingTaskId="05" numberOfReps="1">
                 <letter char="f" offset="center" area="small" htime="default" ftime="default"/>
                 <letter char="o" offset="center" area="small" htime="default" ftime="long"/>
