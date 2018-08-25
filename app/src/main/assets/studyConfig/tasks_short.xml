@@ -67,4 +67,11 @@
             </task>
 		</taskGroup>
 	</featureGroup>
+	<!--User-created password-->
+	<featureGroup featureCount="-1">
+		<taskGroup name="user-created password" groupId="5" isIntroductionGroup="false"
+			sortingGroupId="05">
+			<task numberOfReps="10" sortingTaskId="06" taskId="6"></task>
+		</taskGroup>
+	</featureGroup>
 </taskList>
