@@ -1,36 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <taskList>
-    <!--Introduction-->
-	<featureGroup featureCount="0">
-		<taskGroup groupId="1" sortingGroupId="01" isIntroductionGroup="true" name="introduction">
-			<task taskId="1" sortingTaskId="01" numberOfReps="1">
-				<letter char="f" offset="center" area="small" htime="default" ftime="default"/>
-				<letter char="o" offset="center" area="small" htime="default" ftime="default"/>
-				<letter char="o" offset="center" area="small" htime="default" ftime="default"/>
-				<letter char="t" offset="center" area="small" htime="default" ftime="default"/>
-				<letter char="b" offset="center" area="small" htime="default" ftime="default"/>
-				<letter char="a" offset="center" area="small" htime="default" ftime="default"/>
-				<letter char="l" offset="center" area="small" htime="default" ftime="default"/>
-				<letter char="l" offset="center" area="small" htime="default" ftime="default"/>
-			</task>
-			<task taskId="2" sortingTaskId="02" numberOfReps="1">
-				<letter char="p" offset="center" area="small" htime="default" ftime="default"/>
-				<letter char="a" offset="center" area="small" htime="default" ftime="default"/>
-				<letter char="s" offset="center" area="small" htime="default" ftime="default"/>
-				<letter char="s" offset="center" area="small" htime="default" ftime="default"/>
-				<letter char="w" offset="center" area="small" htime="default" ftime="default"/>
-				<letter char="o" offset="center" area="small" htime="default" ftime="default"/>
-				<letter char="r" offset="center" area="small" htime="default" ftime="default"/>
-				<letter char="d" offset="center" area="small" htime="default" ftime="default"/>
-			</task>
-		</taskGroup>
-	</featureGroup>
-	
 	<!--1 Feature-->
 	<featureGroup featureCount="1">
 		<!--Offset-->
 		<taskGroup groupId="2" sortingGroupId="02" isIntroductionGroup="false" name="offset">
-			<task taskId="3" sortingTaskId="03" numberOfReps="1">
+			<task taskId="1" sortingTaskId="03" numberOfReps="1">
 				<letter char="p" offset="center" area="small" htime="default" ftime="default"/>
 				<letter char="a" offset="left" area="small" htime="default" ftime="default"/>
 				<letter char="s" offset="center" area="small" htime="default" ftime="default"/>
@@ -38,12 +12,12 @@
 				<letter char="w" offset="center" area="small" htime="default" ftime="default"/>
 				<letter char="o" offset="center" area="small" htime="default" ftime="default"/>
 				<letter char="r" offset="center" area="small" htime="default" ftime="default"/>
-				<letter char="d" offset="center" area="small" htime="default" ftime="default"/>
+				<letter char="d" offset="center" area="small" htime="long" ftime="default"/>
 			</task>
 		</taskGroup>
 		<!--Holdtime-->
 		<taskGroup groupId="3" sortingGroupId="03" isIntroductionGroup="false" name="holdtime">
-			<task taskId="4" sortingTaskId="04" numberOfReps="1">
+			<task taskId="2" sortingTaskId="04" numberOfReps="1">
 				<letter char="o" offset="center" area="small" htime="default" ftime="default"/>
 				<letter char="p" offset="center" area="small" htime="long" ftime="default"/>
 				<letter char="p" offset="center" area="small" htime="default" ftime="default"/>
@@ -55,7 +29,7 @@
 			</task>
 		</taskGroup>
 		<taskGroup groupId="4" sortingGroupId="04" isIntroductionGroup="false" name="flighttime">
-            <task taskId="5" sortingTaskId="05" numberOfReps="1">
+            <task taskId="3" sortingTaskId="05" numberOfReps="1">
                 <letter char="f" offset="center" area="small" htime="default" ftime="default"/>
                 <letter char="o" offset="center" area="small" htime="default" ftime="long"/>
                 <letter char="o" offset="center" area="small" htime="default" ftime="default"/>
@@ -71,7 +45,7 @@
 	<featureGroup featureCount="-1">
 		<taskGroup name="user-created password" groupId="5" isIntroductionGroup="false"
 			sortingGroupId="05">
-			<task numberOfReps="10" sortingTaskId="06" taskId="6"></task>
+			<task numberOfReps="10" sortingTaskId="06" taskId="4"></task>
 		</taskGroup>
 	</featureGroup>
 </taskList>
