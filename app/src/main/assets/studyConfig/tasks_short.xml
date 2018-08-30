@@ -5,14 +5,14 @@
 		<!--Offset-->
 		<taskGroup groupId="2" sortingGroupId="02" isIntroductionGroup="false" name="offset">
 			<task taskId="1" sortingTaskId="03" numberOfReps="1">
-				<letter char="p" offset="center" area="small" htime="default" ftime="default"/>
-				<letter char="a" offset="left" area="small" htime="default" ftime="default"/>
-				<letter char="s" offset="center" area="small" htime="default" ftime="default"/>
-				<letter char="s" offset="center" area="small" htime="default" ftime="default"/>
-				<letter char="w" offset="center" area="small" htime="default" ftime="default"/>
-				<letter char="o" offset="center" area="small" htime="default" ftime="default"/>
-				<letter char="r" offset="center" area="small" htime="default" ftime="default"/>
-				<letter char="d" offset="center" area="small" htime="long" ftime="default"/>
+				<letter char="p" offset="left" area="big" htime="default" ftime="default"/>
+				<letter char="a" offset="right" area="small" htime="default" ftime="default"/>
+				<letter char="s" offset="top" area="big" htime="default" ftime="default"/>
+				<letter char="s" offset="bottom" area="big" htime="default" ftime="default"/>
+				<letter char="w" offset="top" area="small" htime="default" ftime="default"/>
+				<letter char="o" offset="bottom" area="small" htime="default" ftime="default"/>
+				<letter char="r" offset="top" area="small" htime="default" ftime="default"/>
+				<letter char="d" offset="right" area="big" htime="long" ftime="default"/>
 			</task>
 		</taskGroup>
 		<!--Holdtime-->
@@ -39,13 +39,23 @@
                 <letter char="l" offset="center" area="small" htime="default" ftime="default"/>
                 <letter char="l" offset="center" area="small" htime="default" ftime="default"/>
             </task>
+			<task numberOfReps="6" sortingTaskId="48" taskId="4">
+				<letter area="small" char="p" ftime="default" htime="long" offset="center" />
+				<letter area="small" char="r" ftime="default" htime="default" offset="center" />
+				<letter area="small" char="i" ftime="long" htime="default" offset="center" />
+				<letter area="small" char="n" ftime="default" htime="default" offset="center" />
+				<letter area="big" char="c" ftime="long" htime="long" offset="right" />
+				<letter area="small" char="e" ftime="default" htime="default" offset="center" />
+				<letter area="big" char="s" ftime="default" htime="default" offset="center" />
+				<letter area="small" char="s" ftime="default" htime="default" offset="top" />
+			</task>
 		</taskGroup>
 	</featureGroup>
 	<!--User-created password-->
 	<featureGroup featureCount="-1">
 		<taskGroup name="user-created password" groupId="5" isIntroductionGroup="false"
 			sortingGroupId="05">
-			<task numberOfReps="10" sortingTaskId="06" taskId="4"></task>
+			<task numberOfReps="10" sortingTaskId="06" taskId="5"></task>
 		</taskGroup>
 	</featureGroup>
 </taskList>
