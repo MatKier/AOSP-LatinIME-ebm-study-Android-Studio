@@ -18,14 +18,14 @@
 		<!--Holdtime-->
 		<taskGroup groupId="3" sortingGroupId="03" isIntroductionGroup="false" name="holdtime">
 			<task taskId="2" sortingTaskId="04" numberOfReps="1">
-				<letter char="o" offset="center" area="small" htime="default" ftime="default"/>
-				<letter char="p" offset="center" area="small" htime="long" ftime="default"/>
 				<letter char="p" offset="center" area="small" htime="default" ftime="default"/>
-				<letter char="o" offset="center" area="small" htime="default" ftime="default"/>
-				<letter char="s" offset="center" area="small" htime="default" ftime="default"/>
+				<letter char="r" offset="center" area="small" htime="long" ftime="default"/>
 				<letter char="i" offset="center" area="small" htime="default" ftime="default"/>
 				<letter char="n" offset="center" area="small" htime="default" ftime="default"/>
-				<letter char="g" offset="center" area="small" htime="default" ftime="default"/>
+				<letter char="c" offset="center" area="small" htime="default" ftime="default"/>
+				<letter char="e" offset="center" area="small" htime="default" ftime="default"/>
+				<letter char="s" offset="center" area="small" htime="default" ftime="default"/>
+				<letter char="s" offset="center" area="small" htime="default" ftime="default"/>
 			</task>
 		</taskGroup>
 		<taskGroup groupId="4" sortingGroupId="04" isIntroductionGroup="false" name="flighttime">
