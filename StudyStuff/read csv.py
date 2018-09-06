@@ -1,16 +1,17 @@
 import pandas as pd
 import numpy as np
 import math as maths
+import matplotlib.pyplot as plt
 import os
 
 usecols_ = [" x", " y", " offsetX", " offsetY", " keyCenterX", " keyCenterY", " holdTime", " flightTime", " pressure"]
 usecols = [" offsetX", " offsetY", " keyCenterX", " keyCenterY", " holdTime", " flightTime", " pressure"]
 
-targetGroupPath = "E:/OneDrive/Bachelor Stuff/Hauptstudie/Erster Durchgang/KeyStrokeLog/ID_targetValues/"
-targetGroupPath_ = "C:\Users\mathi\OneDrive\Bachelor Stuff\Hauptstudie\Erster Durchgang\KeyStrokeLog\ID_targetValues/"
+targetGroupPath = "E:/OneDrive/Bachelor Stuff/Hauptstudie/Pilot/KeyStrokeLog/ID_targetValues/"
+targetGroupPath_ = "C:\Users\mathi\OneDrive\Bachelor Stuff\Hauptstudie\Pilot\KeyStrokeLog\ID_targetValues/"
 
-taskGroupPath = "E:/OneDrive/Bachelor Stuff/Hauptstudie/Erster Durchgang/KeyStrokeLog/ID_0/"
-taskGroupPath_ = "C:\Users\mathi\OneDrive\Bachelor Stuff\Hauptstudie\Erster Durchgang\KeyStrokeLog\ID_0/"
+taskGroupPath = "E:/OneDrive/Bachelor Stuff/Hauptstudie/Pilot/KeyStrokeLog/ID_0/"
+taskGroupPath_ = "C:\Users\mathi\OneDrive\Bachelor Stuff\Hauptstudie\Pilot\KeyStrokeLog\ID_0/"
 taskGroupList = os.listdir(taskGroupPath)
 
 defaultHoldTimeError = []
@@ -120,4 +121,118 @@ for key in sorted(taskPathDict.keys()):
 			topOffsetError.append([np.mean(tempTopOffsetError), taskId])
 			bottomOffsetError.append([np.mean(tempBottomOffsetError), taskId])
 
-print 'suc'
+print 'succ'
+
+offset_means = (np.nanmean([error[0] for error in centerOffsetError]),
+				np.nanmean([error[0] for error in leftOffsetError]),
+				np.nanmean([error[0] for error in rightOffsetError]),
+				np.nanmean([error[0] for error in topOffsetError]),
+				np.nanmean([error[0] for error in bottomOffsetError]))
+offset_std = (np.nanstd([error[0] for error in centerOffsetError]),
+			  np.nanstd([error[0] for error in leftOffsetError]),
+			  np.nanstd([error[0] for error in rightOffsetError]),
+			  np.nanstd([error[0] for error in topOffsetError]),
+			  np.nanstd([error[0] for error in bottomOffsetError]))
+
+fig, ax = plt.subplots()
+
+index = np.arange(len(offset_means))
+bar_width = 0.35
+
+opacity = 0.4
+error_config = {'ecolor': '0.3'}
+
+rects = ax.bar(index, offset_means, bar_width,
+			   alpha=opacity, color='g',
+			   yerr=offset_std, error_kw=error_config)
+
+ax.set_xlabel('Offset direction')
+ax.set_ylabel('Error')
+ax.set_title('Offset error by offset direction')
+ax.set_xticks(index)
+ax.set_xticklabels(('Center', 'Left', 'Righ', 'Top', 'Bottom'))
+ax.legend()
+
+fig.tight_layout()
+plt.show()
+
+area_means = (np.nanmean([error[0] for error in defaultAreaError]),
+			  np.nanmean([error[0] for error in bigAreaError]))
+area_std = (np.nanstd([error[0] for error in defaultAreaError]),
+			np.nanstd([error[0] for error in bigAreaError]))
+
+fig, ax = plt.subplots()
+
+index = np.arange(len(area_means))
+bar_width = 0.75
+
+opacity = 0.4
+error_config = {'ecolor': '0.3'}
+
+rects = ax.bar(index, area_means, bar_width,
+			   alpha=opacity, color='b',
+			   yerr=area_std, error_kw=error_config)
+
+ax.set_xlabel('Area characteristic')
+ax.set_ylabel('Error')
+ax.set_title('Area error by area characteristic')
+ax.set_xticks(index)
+ax.set_xticklabels(('Default', 'Big'))
+ax.legend()
+
+fig.tight_layout()
+plt.show()
+
+flight_time_means = (np.nanmean([error[0] for error in defaultFlightTimeError]),
+					 np.nanmean([error[0] for error in longFlightTimeError]))
+flight_time_std = (np.nanstd([error[0] for error in defaultFlightTimeError]),
+				   np.nanstd([error[0] for error in longFlightTimeError]))
+
+fig, ax = plt.subplots()
+
+index = np.arange(len(area_means))
+bar_width = 0.75
+
+opacity = 0.4
+error_config = {'ecolor': '0.3'}
+
+rects = ax.bar(index, flight_time_means, bar_width,
+			   alpha=opacity, color='r',
+			   yerr=flight_time_std, error_kw=error_config)
+
+ax.set_xlabel('Flight time characteristic')
+ax.set_ylabel('Error')
+ax.set_title('Flight time error by flight time characteristic')
+ax.set_xticks(index)
+ax.set_xticklabels(('Default', 'Long'))
+ax.legend()
+
+fig.tight_layout()
+plt.show()
+
+hold_time_means = (np.nanmean([error[0] for error in defaultHoldTimeError]),
+				   np.nanmean([error[0] for error in longHoldTimeError]))
+hold_time_std = (np.nanstd([error[0] for error in defaultHoldTimeError]),
+				 np.nanstd([error[0] for error in longHoldTimeError]))
+
+fig, ax = plt.subplots()
+
+index = np.arange(len(area_means))
+bar_width = 0.75
+
+opacity = 0.4
+error_config = {'ecolor': '0.3'}
+
+rects = ax.bar(index, hold_time_means, bar_width,
+			   alpha=opacity, color='y',
+			   yerr=hold_time_std, error_kw=error_config)
+
+ax.set_xlabel('Hold time characteristic')
+ax.set_ylabel('Error')
+ax.set_title('Hold time error by hold time characteristic')
+ax.set_xticks(index)
+ax.set_xticklabels(('Default', 'Long'))
+ax.legend()
+
+fig.tight_layout()
+plt.show()
