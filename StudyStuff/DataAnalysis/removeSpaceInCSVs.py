@@ -1,3 +1,5 @@
+# Only needed for pilot study csvs 
+
 import fnmatch
 import os
 
