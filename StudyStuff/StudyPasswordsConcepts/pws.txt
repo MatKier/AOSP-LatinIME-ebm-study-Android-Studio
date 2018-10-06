@@ -19,4 +19,3 @@ killer		großer abstand bei le, kleiner abstand bei (ki, il, er)
 effort		großer abstand bei fo [nicht sehr groß], kleiner abstand bei (ef, rt)
 accept		großer abstand bei ep, kleiner abstand bei (ac, ce)
 loose		großer abstand bei os, kleiner abstand bei (lo, se)
-

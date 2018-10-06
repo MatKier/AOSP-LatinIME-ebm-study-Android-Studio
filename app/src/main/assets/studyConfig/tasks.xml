@@ -397,6 +397,7 @@
         <taskGroup name="holdtime+flighttime+area" groupId="15" isIntroductionGroup="false"
             sortingGroupId="15">
             <task numberOfReps="6" sortingTaskId="34" taskId="34">
+                <!--TODO fehler in der config, zwei mal htime anstatt h + f time-->
                 <letter area="small" char="p" ftime="default" htime="default" offset="center" />
                 <letter area="small" char="r" ftime="default" htime="long" offset="center" />
                 <letter area="small" char="i" ftime="default" htime="default" offset="center" />
